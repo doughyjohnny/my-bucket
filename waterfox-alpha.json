@@ -1,24 +1,10 @@
 {
     "version": "68.0a1",
-    "description": "The 100% fresh, free-range, ethical browser.",
-    "homepage": "https://www.waterfox.net//",
-    "license": {
-        "identifier": "MPL-2.0",
-        "url": "https://github.com/MrAlex94/Waterfox/blob/master/LICENSE"
-    },
     "url": "https://storage-waterfox.netdna-ssl.com/Waterfox/aurora/WINNT/Waterfox%2068.0a1%20Setup.exe#/dl.7z",
-    "extract_dir": "core",
+    "hash": "129dd3662c189e64c0de7a4a7f7040f4472e73dbe0549e513d8ec5614c0a681d",
+    "extract_dir": "waterfox-alpha",
     "bin": "waterfox.exe",
-    "shortcuts": [
-        [
-            "waterfox-alpha.exe",
-            "Waterfox-alpha"
-        ]
-    ],
-    "checkver": {
-        "github": "https://github.com/MrAlex94/Waterfox/"
-    },
     "autoupdate": {
-        "url": "https://storage-waterfox.netdna-ssl.com/releases/win64/installer/Waterfox%20$version%20Setup.exe#/dl.7z"
+        "url": "https://storage-waterfox.netdna-ssl.com/Waterfox/aurora/WINNT/Waterfox%20$version%20Setup.exe#/dl.7z"
     }
 }
