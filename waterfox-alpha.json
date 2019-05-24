@@ -8,7 +8,7 @@
     },
     "url": "https://storage-waterfox.netdna-ssl.com/Waterfox/aurora/WINNT/Waterfox%2068.0a1%20Setup.exe#/dl.7z",
     "extract_dir": "core",
-    "bin": "waterfox-alpha.exe",
+    "bin": "waterfox.exe",
     "shortcuts": [
         [
             "waterfox-alpha.exe",
