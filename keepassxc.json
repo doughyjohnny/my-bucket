@@ -6,12 +6,12 @@
         "64bit": {
             "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.4.1/KeePassXC-2.4.1-Win64.msi",
             "hash": "c5abea61312f4d8ae3a7dc642a46e22718f54e36f64696a190523d644e346146",
-            "extract_dir": "KeePassXC-2.4.1-Win64"
+            "extract_dir": "KeePassXC"
         },
         "32bit": {
             "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.4.1/KeePassXC-2.4.1-Win32.msi",
             "hash": "709705d1ad1776ea17f67a6d844470b453a4b7c9623945126d49a0e443c32221",
-            "extract_dir": "KeePassXC-2.4.1-Win32"
+            "extract_dir": "KeePassXC"
         }
     },
     "bin": [
@@ -32,7 +32,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/keepassxreboot/keepassxc/releases/download/$version/KeePassXC-$version-Win64.msi",
-                "extract_dir": "KeePassXC-$version-Win64",
+                "extract_dir": "KeePassXC",
                 "hash": {
                     "find": "([a-fA-F0-9]+)\\s+\\*?(?:KeePassXC-([\\d.]+)-Win64.msi)",
                     "url": "$url.DIGEST"
@@ -40,7 +40,7 @@
             },
             "32bit": {
                 "url": "https://github.com/keepassxreboot/keepassxc/releases/download/$version/KeePassXC-$version-Win32.msi",
-                "extract_dir": "KeePassXC-$version-Win32",
+                "extract_dir": "KeePassXC",
                 "hash": {
                     "find": "([a-fA-F0-9]+)\\s+\\*?(?:KeePassXC-([\\d.]+)-Win32.msi)",
                     "url": "$url.DIGEST"
